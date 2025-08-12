@@ -7,8 +7,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/goreleaser/goreleaser/v2/internal/tmpl"
-	api "github.com/goreleaser/goreleaser/v2/pkg/build"
+	"github.com/ostiwe/goreleaser/v2/internal/tmpl"
+	api "github.com/ostiwe/goreleaser/v2/pkg/build"
 )
 
 const keyAbi = "Abi"

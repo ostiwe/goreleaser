@@ -1,6 +1,6 @@
 package universalbinary
 
-import "github.com/goreleaser/goreleaser/v2/internal/tmpl"
+import "github.com/ostiwe/goreleaser/v2/internal/tmpl"
 
 type unitarget struct{}
 

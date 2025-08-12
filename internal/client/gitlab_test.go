@@ -13,9 +13,9 @@ import (
 	"testing"
 	"text/template"
 
-	"github.com/goreleaser/goreleaser/v2/internal/artifact"
-	"github.com/goreleaser/goreleaser/v2/internal/testctx"
-	"github.com/goreleaser/goreleaser/v2/pkg/config"
+	"github.com/ostiwe/goreleaser/v2/internal/artifact"
+	"github.com/ostiwe/goreleaser/v2/internal/testctx"
+	"github.com/ostiwe/goreleaser/v2/pkg/config"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	gitlab "gitlab.com/gitlab-org/api/client-go"

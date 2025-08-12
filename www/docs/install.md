@@ -291,7 +291,7 @@ apk add --allow-untrusted goreleaser*.apk
 === "OSS"
 
     ```bash
-    go install github.com/goreleaser/goreleaser/v2@latest
+    go install github.com/ostiwe/goreleaser/v2@latest
     ```
 
     Requires Go 1.24.

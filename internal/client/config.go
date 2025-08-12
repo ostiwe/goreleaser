@@ -1,6 +1,6 @@
 package client
 
-import "github.com/goreleaser/goreleaser/v2/pkg/config"
+import "github.com/ostiwe/goreleaser/v2/pkg/config"
 
 const prFooter = "###### Automated with [GoReleaser](https://goreleaser.com)"
 

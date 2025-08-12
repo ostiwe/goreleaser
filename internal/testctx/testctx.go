@@ -6,9 +6,9 @@ import (
 
 	stdctx "context"
 
-	"github.com/goreleaser/goreleaser/v2/internal/skips"
-	"github.com/goreleaser/goreleaser/v2/pkg/config"
-	"github.com/goreleaser/goreleaser/v2/pkg/context"
+	"github.com/ostiwe/goreleaser/v2/internal/skips"
+	"github.com/ostiwe/goreleaser/v2/pkg/config"
+	"github.com/ostiwe/goreleaser/v2/pkg/context"
 )
 
 // Opt is an option for a test context.

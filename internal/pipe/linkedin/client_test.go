@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/goreleaser/goreleaser/v2/internal/testctx"
+	"github.com/ostiwe/goreleaser/v2/internal/testctx"
 	"github.com/stretchr/testify/require"
 )
 

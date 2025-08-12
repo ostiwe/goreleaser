@@ -8,8 +8,8 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/goreleaser/goreleaser/v2/internal/golden"
-	"github.com/goreleaser/goreleaser/v2/pkg/config"
+	"github.com/ostiwe/goreleaser/v2/internal/golden"
+	"github.com/ostiwe/goreleaser/v2/pkg/config"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/sync/errgroup"

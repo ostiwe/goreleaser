@@ -3,10 +3,10 @@ package announce
 import (
 	"testing"
 
-	"github.com/goreleaser/goreleaser/v2/internal/skips"
-	"github.com/goreleaser/goreleaser/v2/internal/testctx"
-	"github.com/goreleaser/goreleaser/v2/pkg/config"
 	"github.com/hashicorp/go-multierror"
+	"github.com/ostiwe/goreleaser/v2/internal/skips"
+	"github.com/ostiwe/goreleaser/v2/internal/testctx"
+	"github.com/ostiwe/goreleaser/v2/pkg/config"
 	"github.com/stretchr/testify/require"
 )
 

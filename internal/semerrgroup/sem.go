@@ -5,8 +5,8 @@ package semerrgroup
 import (
 	"sync"
 
-	"github.com/goreleaser/goreleaser/v2/internal/pipe"
 	"github.com/hashicorp/go-multierror"
+	"github.com/ostiwe/goreleaser/v2/internal/pipe"
 	"golang.org/x/sync/errgroup"
 )
 

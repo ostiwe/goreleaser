@@ -11,11 +11,11 @@ import (
 	"time"
 
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/v2/internal/git"
-	"github.com/goreleaser/goreleaser/v2/internal/pipe"
-	"github.com/goreleaser/goreleaser/v2/internal/skips"
-	"github.com/goreleaser/goreleaser/v2/internal/tmpl"
-	"github.com/goreleaser/goreleaser/v2/pkg/context"
+	"github.com/ostiwe/goreleaser/v2/internal/git"
+	"github.com/ostiwe/goreleaser/v2/internal/pipe"
+	"github.com/ostiwe/goreleaser/v2/internal/skips"
+	"github.com/ostiwe/goreleaser/v2/internal/tmpl"
+	"github.com/ostiwe/goreleaser/v2/pkg/context"
 )
 
 // Pipe that sets up git state.

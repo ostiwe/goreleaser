@@ -14,8 +14,8 @@ import (
 	"github.com/caarlos0/log"
 	"github.com/charmbracelet/fang"
 	"github.com/charmbracelet/lipgloss/v2"
-	"github.com/goreleaser/goreleaser/v2/internal/gerrors"
-	"github.com/goreleaser/goreleaser/v2/pkg/context"
+	"github.com/ostiwe/goreleaser/v2/internal/gerrors"
+	"github.com/ostiwe/goreleaser/v2/pkg/context"
 	"github.com/spf13/cobra"
 )
 

@@ -11,7 +11,7 @@ import (
 	"net/http"
 
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/v2/pkg/context"
+	"github.com/ostiwe/goreleaser/v2/pkg/context"
 	"golang.org/x/oauth2"
 )
 

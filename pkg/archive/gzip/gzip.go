@@ -7,8 +7,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/goreleaser/goreleaser/v2/pkg/config"
 	gzip "github.com/klauspost/pgzip"
+	"github.com/ostiwe/goreleaser/v2/pkg/config"
 )
 
 // Archive as gz.

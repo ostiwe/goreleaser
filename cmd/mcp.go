@@ -10,10 +10,10 @@ import (
 	"strings"
 
 	goversion "github.com/caarlos0/go-version"
-	"github.com/goreleaser/goreleaser/v2/internal/pipe/defaults"
-	"github.com/goreleaser/goreleaser/v2/pkg/context"
 	"github.com/mark3labs/mcp-go/mcp"
 	"github.com/mark3labs/mcp-go/server"
+	"github.com/ostiwe/goreleaser/v2/internal/pipe/defaults"
+	"github.com/ostiwe/goreleaser/v2/pkg/context"
 	"github.com/spf13/cobra"
 )
 

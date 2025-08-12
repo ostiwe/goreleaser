@@ -9,14 +9,14 @@ import (
 
 	"github.com/agnivade/levenshtein"
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/v2/internal/artifact"
-	"github.com/goreleaser/goreleaser/v2/internal/ids"
-	"github.com/goreleaser/goreleaser/v2/internal/pipe"
-	"github.com/goreleaser/goreleaser/v2/internal/semerrgroup"
-	"github.com/goreleaser/goreleaser/v2/internal/skips"
-	"github.com/goreleaser/goreleaser/v2/internal/tmpl"
-	"github.com/goreleaser/goreleaser/v2/pkg/config"
-	"github.com/goreleaser/goreleaser/v2/pkg/context"
+	"github.com/ostiwe/goreleaser/v2/internal/artifact"
+	"github.com/ostiwe/goreleaser/v2/internal/ids"
+	"github.com/ostiwe/goreleaser/v2/internal/pipe"
+	"github.com/ostiwe/goreleaser/v2/internal/semerrgroup"
+	"github.com/ostiwe/goreleaser/v2/internal/skips"
+	"github.com/ostiwe/goreleaser/v2/internal/tmpl"
+	"github.com/ostiwe/goreleaser/v2/pkg/config"
+	"github.com/ostiwe/goreleaser/v2/pkg/context"
 )
 
 // ManifestPipe is an implementation for the docker manifest feature,

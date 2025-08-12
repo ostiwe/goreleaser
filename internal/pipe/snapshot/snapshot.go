@@ -6,9 +6,9 @@ import (
 	"fmt"
 
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/v2/internal/deprecate"
-	"github.com/goreleaser/goreleaser/v2/internal/tmpl"
-	"github.com/goreleaser/goreleaser/v2/pkg/context"
+	"github.com/ostiwe/goreleaser/v2/internal/deprecate"
+	"github.com/ostiwe/goreleaser/v2/internal/tmpl"
+	"github.com/ostiwe/goreleaser/v2/pkg/context"
 )
 
 // Pipe for setting up the snapshot feature..

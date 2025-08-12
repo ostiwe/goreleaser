@@ -12,10 +12,10 @@ import (
 	"strings"
 
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/v2/internal/client"
-	"github.com/goreleaser/goreleaser/v2/internal/git"
-	"github.com/goreleaser/goreleaser/v2/internal/tmpl"
-	"github.com/goreleaser/goreleaser/v2/pkg/context"
+	"github.com/ostiwe/goreleaser/v2/internal/client"
+	"github.com/ostiwe/goreleaser/v2/internal/git"
+	"github.com/ostiwe/goreleaser/v2/internal/tmpl"
+	"github.com/ostiwe/goreleaser/v2/pkg/context"
 )
 
 // Item is a type alias of [client.Changelog].

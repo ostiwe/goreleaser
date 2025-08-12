@@ -8,8 +8,8 @@ import (
 	"github.com/caarlos0/env/v11"
 	"github.com/caarlos0/log"
 	api "github.com/go-telegram-bot-api/telegram-bot-api/v5"
-	"github.com/goreleaser/goreleaser/v2/internal/tmpl"
-	"github.com/goreleaser/goreleaser/v2/pkg/context"
+	"github.com/ostiwe/goreleaser/v2/internal/tmpl"
+	"github.com/ostiwe/goreleaser/v2/pkg/context"
 )
 
 const (

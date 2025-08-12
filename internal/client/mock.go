@@ -7,9 +7,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/goreleaser/goreleaser/v2/internal/artifact"
-	"github.com/goreleaser/goreleaser/v2/pkg/config"
-	"github.com/goreleaser/goreleaser/v2/pkg/context"
+	"github.com/ostiwe/goreleaser/v2/internal/artifact"
+	"github.com/ostiwe/goreleaser/v2/pkg/config"
+	"github.com/ostiwe/goreleaser/v2/pkg/context"
 )
 
 var (

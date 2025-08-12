@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/goreleaser/goreleaser/v2/internal/testlib"
-	"github.com/goreleaser/goreleaser/v2/pkg/config"
 	"github.com/klauspost/compress/zstd"
+	"github.com/ostiwe/goreleaser/v2/internal/testlib"
+	"github.com/ostiwe/goreleaser/v2/pkg/config"
 	"github.com/stretchr/testify/require"
 )
 

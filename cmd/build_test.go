@@ -4,11 +4,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/goreleaser/goreleaser/v2/internal/pipeline"
-	"github.com/goreleaser/goreleaser/v2/internal/skips"
-	"github.com/goreleaser/goreleaser/v2/internal/testctx"
-	"github.com/goreleaser/goreleaser/v2/pkg/config"
-	"github.com/goreleaser/goreleaser/v2/pkg/context"
+	"github.com/ostiwe/goreleaser/v2/internal/pipeline"
+	"github.com/ostiwe/goreleaser/v2/internal/skips"
+	"github.com/ostiwe/goreleaser/v2/internal/testctx"
+	"github.com/ostiwe/goreleaser/v2/pkg/config"
+	"github.com/ostiwe/goreleaser/v2/pkg/context"
 	"github.com/stretchr/testify/require"
 )
 

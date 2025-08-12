@@ -12,10 +12,10 @@ import (
 
 	"github.com/Masterminds/semver/v3"
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/v2/internal/artifact"
-	"github.com/goreleaser/goreleaser/v2/internal/tmpl"
-	"github.com/goreleaser/goreleaser/v2/pkg/config"
-	"github.com/goreleaser/goreleaser/v2/pkg/context"
+	"github.com/ostiwe/goreleaser/v2/internal/artifact"
+	"github.com/ostiwe/goreleaser/v2/internal/tmpl"
+	"github.com/ostiwe/goreleaser/v2/pkg/config"
+	"github.com/ostiwe/goreleaser/v2/pkg/context"
 	gitlab "gitlab.com/gitlab-org/api/client-go"
 )
 

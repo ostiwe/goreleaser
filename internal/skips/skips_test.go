@@ -5,8 +5,8 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/goreleaser/goreleaser/v2/internal/skips"
-	"github.com/goreleaser/goreleaser/v2/internal/testctx"
+	"github.com/ostiwe/goreleaser/v2/internal/skips"
+	"github.com/ostiwe/goreleaser/v2/internal/testctx"
 	"github.com/stretchr/testify/require"
 )
 

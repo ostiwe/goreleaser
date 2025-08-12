@@ -7,14 +7,14 @@ import (
 	"time"
 
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/v2/internal/logext"
-	"github.com/goreleaser/goreleaser/v2/internal/middleware/errhandler"
-	"github.com/goreleaser/goreleaser/v2/internal/middleware/logging"
-	"github.com/goreleaser/goreleaser/v2/internal/middleware/skip"
-	"github.com/goreleaser/goreleaser/v2/internal/pipe/git"
-	"github.com/goreleaser/goreleaser/v2/internal/pipeline"
-	"github.com/goreleaser/goreleaser/v2/internal/skips"
-	"github.com/goreleaser/goreleaser/v2/pkg/context"
+	"github.com/ostiwe/goreleaser/v2/internal/logext"
+	"github.com/ostiwe/goreleaser/v2/internal/middleware/errhandler"
+	"github.com/ostiwe/goreleaser/v2/internal/middleware/logging"
+	"github.com/ostiwe/goreleaser/v2/internal/middleware/skip"
+	"github.com/ostiwe/goreleaser/v2/internal/pipe/git"
+	"github.com/ostiwe/goreleaser/v2/internal/pipeline"
+	"github.com/ostiwe/goreleaser/v2/internal/skips"
+	"github.com/ostiwe/goreleaser/v2/pkg/context"
 	"github.com/spf13/cobra"
 )
 

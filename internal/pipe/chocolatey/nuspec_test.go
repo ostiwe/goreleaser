@@ -3,7 +3,7 @@ package chocolatey
 import (
 	"testing"
 
-	"github.com/goreleaser/goreleaser/v2/internal/golden"
+	"github.com/ostiwe/goreleaser/v2/internal/golden"
 	"github.com/stretchr/testify/require"
 )
 

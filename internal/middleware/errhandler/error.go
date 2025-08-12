@@ -3,10 +3,10 @@ package errhandler
 
 import (
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/v2/internal/middleware"
-	"github.com/goreleaser/goreleaser/v2/internal/pipe"
-	"github.com/goreleaser/goreleaser/v2/pkg/context"
 	"github.com/hashicorp/go-multierror"
+	"github.com/ostiwe/goreleaser/v2/internal/middleware"
+	"github.com/ostiwe/goreleaser/v2/internal/pipe"
+	"github.com/ostiwe/goreleaser/v2/pkg/context"
 )
 
 // Handle handles an action error, ignoring and logging pipe skipped

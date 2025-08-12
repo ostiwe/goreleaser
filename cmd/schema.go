@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/goreleaser/goreleaser/v2/pkg/config"
 	"github.com/invopop/jsonschema"
+	"github.com/ostiwe/goreleaser/v2/pkg/config"
 	"github.com/spf13/cobra"
 )
 

@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/v2/internal/golden"
-	"github.com/goreleaser/goreleaser/v2/internal/testctx"
+	"github.com/ostiwe/goreleaser/v2/internal/golden"
+	"github.com/ostiwe/goreleaser/v2/internal/testctx"
 	"github.com/stretchr/testify/require"
 )
 

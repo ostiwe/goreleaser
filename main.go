@@ -7,7 +7,7 @@ import (
 
 	goversion "github.com/caarlos0/go-version"
 	"github.com/caarlos0/log"
-	"github.com/goreleaser/goreleaser/v2/cmd"
+	"github.com/ostiwe/goreleaser/v2/cmd"
 	"go.uber.org/automaxprocs/maxprocs"
 )
 

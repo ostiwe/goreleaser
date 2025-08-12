@@ -5,9 +5,9 @@ package tarzst
 import (
 	"io"
 
-	"github.com/goreleaser/goreleaser/v2/pkg/archive/tar"
-	"github.com/goreleaser/goreleaser/v2/pkg/config"
 	"github.com/klauspost/compress/zstd"
+	"github.com/ostiwe/goreleaser/v2/pkg/archive/tar"
+	"github.com/ostiwe/goreleaser/v2/pkg/config"
 )
 
 // Archive as tar.zst.

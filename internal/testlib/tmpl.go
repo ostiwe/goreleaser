@@ -3,7 +3,7 @@ package testlib
 import (
 	"testing"
 
-	"github.com/goreleaser/goreleaser/v2/internal/tmpl"
+	"github.com/ostiwe/goreleaser/v2/internal/tmpl"
 	"github.com/stretchr/testify/require"
 )
 

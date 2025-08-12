@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/caarlos0/log"
-	builders "github.com/goreleaser/goreleaser/v2/pkg/build"
-	"github.com/goreleaser/goreleaser/v2/pkg/config"
-	"github.com/goreleaser/goreleaser/v2/pkg/context"
+	builders "github.com/ostiwe/goreleaser/v2/pkg/build"
+	"github.com/ostiwe/goreleaser/v2/pkg/config"
+	"github.com/ostiwe/goreleaser/v2/pkg/context"
 )
 
 func filter(ctx *context.Context, build config.Build) []string {
