@@ -10,6 +10,9 @@ import (
 	"github.com/ostiwe/goreleaser/v2/internal/middleware/logging"
 	"github.com/ostiwe/goreleaser/v2/internal/middleware/skip"
 	"github.com/ostiwe/goreleaser/v2/internal/pipe/changelog"
+	"github.com/ostiwe/goreleaser/v2/internal/pipe/env"
+	"github.com/ostiwe/goreleaser/v2/internal/pipe/git"
+	"github.com/ostiwe/goreleaser/v2/internal/pipeline"
 	"github.com/ostiwe/goreleaser/v2/internal/skips"
 	"github.com/ostiwe/goreleaser/v2/pkg/context"
 	"github.com/spf13/cobra"
@@ -89,16 +92,22 @@ func getChangelog(parent stdctx.Context, options releaseOpts) error {
 		return decorateWithCtxErr(ctx, err, "release", after(start))
 	}
 
-	pipe := changelog.Pipe{}
+	var pipelineItems = []pipeline.Piper{
+		env.Pipe{},
+		git.Pipe{},
+		changelog.Pipe{},
+	}
 
-	if err := skip.Maybe(
-		pipe,
-		logging.Log(
-			pipe.String(),
-			errhandler.Handle(pipe.Run),
-		),
-	)(ctx); err != nil {
-		return decorateWithCtxErr(ctx, err, "changelog", after(start))
+	for _, pipe := range pipelineItems {
+		if err := skip.Maybe(
+			pipe,
+			logging.Log(
+				pipe.String(),
+				errhandler.Handle(pipe.Run),
+			),
+		)(ctx); err != nil {
+			return decorateWithCtxErr(ctx, err, "release", after(start))
+		}
 	}
 
 	deprecateWarn(ctx)
