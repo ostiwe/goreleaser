@@ -118,6 +118,7 @@ goreleaser release
 	cmd.AddCommand(
 		newBuildCmd().cmd,
 		newReleaseCmd().cmd,
+		newChangelogCmd().cmd,
 		newCheckCmd().cmd,
 		newHealthcheckCmd().cmd,
 		newInitCmd().cmd,
